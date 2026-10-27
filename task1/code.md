@@ -32,9 +32,6 @@ Note: The scholarship thresholds are sample values for this case study and can b
 
 ## 3. Flowchart
 
-
-## Flowchart
-
 ```mermaid
 flowchart TD
     A([Start]) --> B[/Input number of applicants/]
