@@ -32,7 +32,10 @@ Note: The scholarship thresholds are sample values for this case study and can b
 
 ## 3. Flowchart
 
-```Mermaid
+
+## Flowchart
+
+```mermaid
 flowchart TD
     A([Start]) --> B[/Input number of applicants/]
     B --> C[/Input applicant details and marks/]
@@ -52,7 +55,7 @@ flowchart TD
     K --> L[Sort by aggregate descending]
     L --> M[Break ties by attendance descending]
     M --> N[Break ties by income ascending]
-    N --> O[Break remaining ties by ID ascending]
+    N --> O[Break ties by ID ascending]
     O --> P[Assign ranks and display results]
     P --> Q([Stop])
 ```
